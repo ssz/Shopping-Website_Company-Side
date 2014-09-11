@@ -1,0 +1,24 @@
+<html>
+<title>Shuzi Restaurant Website</title>
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css" >
+	<script type = "text/javascript">
+	function validateSubmit(){
+		if(document.login.username.value.length == 0 || document.login.password.value.length == 0){
+			var msg = document.getElementById('errMsg');
+			msg.innerHTML = "Invalid Login."
+			return false;
+		}
+		return true;
+	}
+	</script>
+</head>
+
+<body>
+	<!--<div class="login" id="prelogin" style="margin:auto; margin-top:100px; width:300px; padding-left:35px; padding-right:35px;"> -->
+	<div class="container">
+	<div class="login" id="prelogin">
+		<h1>Sign in</h1>
+		<form name="login" action="login.php" method="POST"  onSubmit="return validateSubmit();">
+			<p><input id="username" name="username" type="text" placeholder="Username" autofocus/></p>
+			<p><input id="password" name="password" type="password" placeholder="Password"></p>
