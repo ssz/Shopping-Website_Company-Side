@@ -1,6 +1,6 @@
 ReadMe:
 
-HW2 is from zishu Zhang.
+HW2 is from Suzie Zhang.
 
 All the files under the Link:   http://cs-server.usc.edu:8111/HW2
 Login Page:   http://cs-server.usc.edu:8111/HW2/login.php
